@@ -1,6 +1,5 @@
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
-import { fontFamily } from "./../node_modules/@mui/system/esm/typography/typography";
 
 //color design tokens
 
@@ -139,8 +138,8 @@ export const themeSettings = (mode) => {
               main: colors.greenAccent[500],
             },
             neutral: {
-              dark: colors.grey[700],
-              main: colors.grey[500],
+              dark: colors.gray[700],
+              main: colors.gray[500],
               light: colors.gray[100],
             },
             background: {
@@ -155,8 +154,8 @@ export const themeSettings = (mode) => {
               main: colors.greenAccent[500],
             },
             neutral: {
-              dark: colors.grey[700],
-              main: colors.grey[500],
+              dark: colors.gray[700],
+              main: colors.gray[500],
               light: colors.gray[100],
             },
             background: {
